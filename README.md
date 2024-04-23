@@ -13,6 +13,8 @@ This is a template with the following:
 ### initial setup
 * vite.config.js => change base to your GitHub repo name
 * GitHub => repo => settings => pages => branch => select 'main' and change from /root to /docs
+
+<!-- do this next step when you're done and ready to show -->
 ### deploy
 * from branch 'main':
 1. $ `npm run build`
