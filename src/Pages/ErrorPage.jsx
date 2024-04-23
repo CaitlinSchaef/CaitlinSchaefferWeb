@@ -12,7 +12,7 @@ function ErrorPage() {
   }
 
   return (
-    <div className="text-center p-5 m-5">
+    <div className="text-center text-light p-5 m-5">
       <h1>Oops!</h1>
       <h2>An error occurred.</h2>
       {errorMessage ? (

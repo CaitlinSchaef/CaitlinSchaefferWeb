@@ -16,7 +16,7 @@ function App() {
       className="h-100 p-5"
       style={{ color: 'white' }}
     >
-      <Navbar />
+  
       <Title />
     </div>
     // This is the end of the parent div

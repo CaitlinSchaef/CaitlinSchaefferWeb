@@ -6,7 +6,7 @@ import Navbar from "/src/NavBar.jsx"
 function ContactLink() {
  return (
    <div className="p-5">
-     <Link to='/'>{'<- Back'}</Link>
+    
      <h1>Contact Page</h1>
      <p> I
 <br></br>
