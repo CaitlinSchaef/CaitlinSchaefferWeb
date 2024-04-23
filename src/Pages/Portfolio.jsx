@@ -3,7 +3,7 @@ import Navbar from "/src/NavBar.jsx"
 function Portfolio(){
     return (
         <h1>
-          Hello World!
+          Portfolio
         </h1>
       )
 }

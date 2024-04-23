@@ -1,10 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import {
-//   createBrowserRouter,
-//   RouterProvider
-// } from 'react-router-dom'
+
 
 // project styles
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -20,32 +17,6 @@ import Navbar from './NavBar';
 
 
 const site = import.meta.env.BASE_URL
-
-// const router = createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <App />,
-//     errorElement: <ErrorPage />,
-//   },
-//   {
-//     path: '/contact',
-//     element: <Contact />
-//   },
-//   {
-//     path: '/about',
-//     element: <About />
-//   },
-//   {
-//     path: '/blog',
-//     element: <Blog />
-//   },
-//   {
-//     path: '/Portfolio',
-//     element: <Portfolio />
-//   },
-// ], {
-//   basename: site
-// })
 
 
 
