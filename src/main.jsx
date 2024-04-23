@@ -9,10 +9,13 @@ import {
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 
-import Contact from './Contact'
-import About from './About'
-import App from './App'
-import ErrorPage from './ErrorPage'
+import Contact from './Pages/Contact'
+import Blog from './Pages/Blog' 
+import About from './Pages/About'
+import Portfolio from './Pages/Portfolio'
+import App from './Pages/App'
+import ErrorPage from './Pages/ErrorPage'
+
 
 const site = import.meta.env.BASE_URL
 
@@ -20,7 +23,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    errorElement: <ErrorPage />
+    errorElement: <ErrorPage />,
   },
   {
     path: '/contact',
@@ -30,10 +33,18 @@ const router = createBrowserRouter([
     path: '/about',
     element: <About />
   },
+  {
+    path: '/blog',
+    element: <Blog />
+  },
+  {
+    path: '/Portfolio',
+    element: <Portfolio />
+  },
 ], {
   basename: site
 })
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />
+   <RouterProvider router={router} />
 )

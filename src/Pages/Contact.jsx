@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import Navbar from "/src/NavBar.jsx" 
 // import {useState} from "react" use this if you use state
 
 
