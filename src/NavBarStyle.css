@@ -9,5 +9,7 @@
   }
   
   .nav-link {
-    color: #f6f4e6;
+    color: #f6f4e6 !important;
+    padding: 1px;
   }
+

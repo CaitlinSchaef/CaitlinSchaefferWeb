@@ -1,9 +1,9 @@
-import './NavBarStyle.css'
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import NavbarCollapse from 'react-bootstrap/NavbarCollapse'
+import './NavBarStyle.css'
 
 
 const MyNavbar = () => {
@@ -18,22 +18,22 @@ const MyNavbar = () => {
           </Navbar.Brand>
           <Navbar.Collapse className="justify-content-end">
 
-          <Navbar.Text>
-            Signed in as: <a href="#login">Mark Otto</a>
+          <Navbar.Text className="nav-link">
+          <Link className="nav-link" to='/portfolio'>Portfolio</Link> 
           </Navbar.Text>
 
-          <Navbar.Text>
-            Signed in as: <a href="#login">Mark Otto</a>
+          <Navbar.Text className="nav-link">
+          <Link className="nav-link" to='/contact'>Contact</Link>
           </Navbar.Text>
 
-          <Navbar.Text>
-            Signed in as: <a href="#login">Mark Otto</a>
+          <Navbar.Text className="nav-link">
+          <Link className="nav-link" to='/blog'>Blog</Link>
           </Navbar.Text>
 
-          <Navbar.Text>
-            Signed in as: <a href="#login">Mark Otto</a>
+          <Navbar.Text className="nav-link">
+          <Link className="nav-link" to='/about'>About</Link>
           </Navbar.Text>
-          
+
         </Navbar.Collapse>
         </Container>
       </Navbar>
