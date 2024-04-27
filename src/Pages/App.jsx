@@ -3,8 +3,10 @@ import Navbar from "/src/NavBar.jsx"
 
 const Title = () => {
   return (
-    <h1>
-      App Page
+    
+    <h1 className="text-center display-1">
+      <br></br>
+      <em>CAITLIN SCHAEFFER</em>
     </h1>
   )
 }

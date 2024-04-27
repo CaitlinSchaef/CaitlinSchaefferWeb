@@ -17,10 +17,14 @@ body {
     /* attachment is what let you wrap it to the screen properly */
   background-attachment: fixed;
   overflow: hidden;
-  font-family: "Platypi", serif;
+  font-family: "goudy-bookletter-1911", serif;
   font-weight: 400;
   font-style: normal;
   color: #f6f4e6;
+ }
+
+ .display-1 {
+  font-size: 7rem;
  }
 
 #root {
@@ -32,3 +36,10 @@ body {
 #page-content {
   flex-grow: 2;
 }
+
+/* Font texts: 
+font-family: "goudy-bookletter-1911", serif;
+  font-weight: 400;
+  font-style: normal;
+  
+  */
