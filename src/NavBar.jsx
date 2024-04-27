@@ -16,21 +16,21 @@ const MyNavbar = () => {
           <Navbar.Brand>
             <Link className="nav-link" to='/'>Caitlin Schaeffer</Link>
           </Navbar.Brand>
-          <Navbar.Collapse className="justify-content-end">
+          <Navbar.Collapse className="justify-content-start">
 
-          <Navbar.Text className="nav-link">
+          <Navbar.Text className="nav-link me-2">
           <Link className="nav-link" to='/portfolio'>Portfolio</Link> 
           </Navbar.Text>
 
-          <Navbar.Text className="nav-link">
+          <Navbar.Text className="nav-link me-2">
           <Link className="nav-link" to='/contact'>Contact</Link>
           </Navbar.Text>
 
-          <Navbar.Text className="nav-link">
+          <Navbar.Text className="nav-link me-2">
           <Link className="nav-link" to='/blog'>Blog</Link>
           </Navbar.Text>
 
-          <Navbar.Text className="nav-link">
+          <Navbar.Text className="nav-link me-2">
           <Link className="nav-link" to='/about'>About</Link>
           </Navbar.Text>
 
