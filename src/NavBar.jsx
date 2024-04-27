@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import NavbarCollapse from 'react-bootstrap/NavbarCollapse'
 import './NavBarStyle.css'
 
-
+// add sticky="top" after the Navbar class name if you want it to scroll with the page
 const MyNavbar = () => {
     let location = useLocation();
     console.log('location:', location.pathname)

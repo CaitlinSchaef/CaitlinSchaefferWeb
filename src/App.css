@@ -1,14 +1,9 @@
 html {
   height: 100%;
-}
-.platypi-regular {
-  font-family: "Platypi", serif;
-  font-weight: 400;
-  font-style: normal;
+  overflow: scroll;
 }
 
 body {
-  height: 100%;
   background-image: url("../src/assets/BWfloralBG.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -16,7 +11,7 @@ body {
   background-size: cover;
     /* attachment is what let you wrap it to the screen properly */
   background-attachment: fixed;
-  overflow: hidden;
+  overflow: scroll;
   font-family: "goudy-bookletter-1911", serif;
   font-weight: 400;
   font-style: normal;
