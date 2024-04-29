@@ -15,7 +15,7 @@ const Body = () => {
       <Row className="justify-content-md-center">
         {/* Putting the class name for CSS on the column is what allows for customization of the text background
         had to make xs=12 so that it was full width on the smallest screen */}
-        <Col xs={6} md={4} className="justify-content-center mb-3 text-center aboutBody">
+        <Col xs={6} md={4} className="justify-content-center mb-3 text-center">
         </Col>
       </Row>
     </Container>
