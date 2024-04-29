@@ -40,4 +40,5 @@ body {
   border-color: white;
   border-width: 3px; */
   overflow: scroll; 
+  flex-wrap: wrap;
  }

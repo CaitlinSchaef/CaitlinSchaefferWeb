@@ -15,9 +15,10 @@ const Body = () => {
   minBreakpoint="xs">
   <div>
     <Container className="mt-3 mb-3 ms-3 me-3">
-      <Row className="justify-content-md-center">
-        {/* Putting the class name for CSS on the column is what allows for customization of the text background */}
-        <Col xs={6} md={8} className="justify-content-center text-center mb-3 aboutBody">
+      <Row className="justify-content-md-center max-height: 75">
+        {/* Putting the class name for CSS on the column is what allows for customization of the text background
+        had to make xs=12 so that it was full width on the smallest screen */}
+        <Col xs={12} md={8} className="justify-content-center mb-3 text-center aboutBody">
               <h1><strong>Get to know me:</strong></h1>
                 <p>
                 If I needed to boil myself down to a few words, I would feel content with: <br></br>
