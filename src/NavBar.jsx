@@ -11,8 +11,8 @@ const MyNavbar = () => {
     console.log('location:', location.pathname)
     return (
         <>
-      <Navbar className="">
-        <Container>
+      <Navbar className="ps-3">
+        {/* <Container> */}
           <Navbar.Brand>
             <Link className="nav-link" to='/'>Caitlin Schaeffer</Link>
           </Navbar.Brand>
@@ -35,7 +35,7 @@ const MyNavbar = () => {
           </Navbar.Text>
 
         </Navbar.Collapse>
-        </Container>
+        {/* </Container> */}
       </Navbar>
     </>
     )
