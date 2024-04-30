@@ -8,9 +8,9 @@ import BlogContent from "./BlogContent"
 function PullMostRecent() {
     return (
                 <div>
-                   <h2 className="Current title"> {BlogContent.title} </h2>
-                  <h5 className="Current date">{BlogContent.date} </h5>
-                   <p className="Current content"> {BlogContent.content} </p>
+                   <h2 className="CurrentTitle"> {BlogContent.title} </h2>
+                  <h5 className="CurrentDate">{BlogContent.date} </h5>
+                   <p className="CurrentContent overflow-scroll" style={{height: "65vh"}}> {BlogContent.content} </p>
                 </div>
             )
 }
