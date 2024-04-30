@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import BlogContent from "./BlogContent"
 
-function PullName() {
+function PullMostRecent() {
     return (
                 <div>
                    <h2 className="Current title"> {BlogContent.title} </h2>
@@ -19,7 +19,7 @@ function PullName() {
 function BlogFunction() {
     return (
       <div className="p-5">
-        <PullName />
+        <PullMostRecent />
       </div>
     )
   }

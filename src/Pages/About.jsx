@@ -14,7 +14,7 @@ const Body = () => {
   breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs']}
   minBreakpoint="xs">
   {/* <div> */}
-    <Container className="mt-3 mb-3 ms-3 me-3">
+    <Container className="">
       <Row className="justify-content-md-center">
         {/* Putting the class name for CSS on the column is what allows for customization of the text background
         had to make xs=12 so that it was full width on the smallest screen */}
