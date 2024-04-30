@@ -33,7 +33,7 @@ function Layout() {
     </ div>
   )
 }
-
+// outlet is all the stuff in the children path 
 const router = createBrowserRouter([
   {
     element: <Layout />,

@@ -5,7 +5,7 @@ const Title = () => {
   return (
     
     <h1 className="text-center display-1">
-      <br></br>
+    <br></br>
       <em>CAITLIN SCHAEFFER</em>
     </h1>
   )
