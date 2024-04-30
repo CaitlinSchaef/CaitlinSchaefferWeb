@@ -25,12 +25,12 @@ const site = import.meta.env.BASE_URL
 // If you want to add a footer, do it after the outlet div with <Footer />
 function Layout() {
   return (
-    <>
+    <div className="d-flex flex-column justify-content-between vh-100">
       <Navbar />
       <div id='page-content'>
         <Outlet />
       </div>
-    </>
+    </ div>
   )
 }
 
