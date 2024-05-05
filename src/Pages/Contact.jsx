@@ -6,6 +6,8 @@ import Col from 'react-bootstrap/Col'
 import Headshot from '../assets/headShotA.jpeg'
 import Image from 'react-bootstrap/Image';
 import { MdOutlineEmail } from "react-icons/md";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 
 const Body = () => {
@@ -24,11 +26,26 @@ const Body = () => {
                   <img
                     alt="Headshot"
                     src={Headshot}
-                    width="150"
+                    width="250"
                     height="auto"
                     className="text-center"
                   />
-                  <MdOutlineEmail />
+                  <br />
+                  <a
+                  href="https://github.com/CaitlinSchaef"
+                  >
+                    <FaGithub /> 
+                  </a>
+                  <a
+                  href="www.linkedin.com/in/caitlin-schaeffer-125668153"
+                  >
+                    <FaLinkedin />
+                  </a>
+                  <a
+                  href="mailto:caitlinschaef@gmail.com"
+                  >
+                    <MdOutlineEmail /> 
+                  </a>
           </Col>
         </Row>
       </Container>
