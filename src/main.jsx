@@ -20,7 +20,6 @@ import ErrorPage from './Pages/ErrorPage'
 import Navbar from './NavBar';
 // import { Outlet } from 'react-router-dom' this is already at the top 
 
-const site = import.meta.env.BASE_URL
 
 // If you want to add a footer, do it after the outlet div with <Footer />
 function Layout() {
@@ -62,27 +61,9 @@ const router = createBrowserRouter([
       },
     ]
   }
-], {
-  basename: site
-}
+],
 )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <RouterProvider router={router} />
 )
-
-
-// This was an old way we did it to get the navbar to every page
-// ReactDOM.createRoot(document.getElementById('root')).render(
-//   <BrowserRouter basename={site}>
-//     <Navbar />
-//     <Routes>
-//       <Route path="/" element={<App />} errorElement={<ErrorPage />} />
-//       <Route path="/blog" element={<Blog />} />
-//       <Route path="/contact" element={<Contact />} />
-//       <Route path="/portfolio" element={<Portfolio />} />
-//       <Route path="/about" element={<About />} />
-//     </Routes>
-
-//   </BrowserRouter>
-// )
